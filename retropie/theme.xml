@@ -1,0 +1,76 @@
+<theme>
+    <formatVersion>3</formatVersion>
+    <include>./../focus.xml</include>
+
+	<view name="system">
+
+		<image name="ControllerOverlay" extra="true">
+			<tile>false</tile>
+			<pos>0.5 0.212</pos>
+			<origin>0.5 0.5</origin>
+			<size>0.3 0</size>
+			<path>./art/controller.svg</path>
+
+		</image>
+
+		<image name="logo">
+			<path>./art/system.svg</path>
+        </image>
+
+		<image name="background" extra="true">
+			<color>8b0000</color>
+		</image>
+
+	</view>
+
+	<view name="basic, detailed, video">
+		<text name="md_description">
+			<pos>0.34 0.725</pos>
+			<size>0.628 0.10</size>
+			<fontSize>0.021</fontSize>
+		</text>
+
+		<image name="background" extra="true">
+			<color>8b0000</color>
+		</image>
+
+		<textlist name="gamelist">
+			<selectorColor>8b0000</selectorColor>
+		</textlist>
+
+		<image name="logo">
+			<path>./art/system.svg</path>
+			<pos>0.266 0.074</pos>
+			<maxSize>0.321 0.156</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+		
+		<image name="logo2" extra="true">
+			<path>./art/controller.svg</path>
+			<pos>0.91 0.9</pos>
+			<maxSize>0.15 0.15</maxSize>
+			<origin>0.5 0.5</origin>
+			<color>676767</color>
+		</image>
+
+		<rating name="md_rating">
+			<pos>1 1</pos>
+		</rating>
+
+		<image name="md_image">
+			<origin>0.5 0.5</origin>
+			<pos>0.659 0.363</pos>
+			<maxSize>0.666 0.669</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+
+		<datetime name="md_releasedate, md_lastplayed">
+			<pos>1 1</pos>
+		</datetime>
+
+		<text name="md_lbl_rating md_lbl_releasedate, md_lbl_genre, md_genre, md_lbl_developer, md_developer, md_lbl_players, md_players, md_lbl_publisher, md_publisher, md_lbl_lastplayed">
+			<pos>1 1</pos>
+		</text>
+	</view>
+
+</theme>
